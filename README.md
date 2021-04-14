@@ -4,7 +4,7 @@ Follow the steps in this document to set up your python environment ready to wor
 
 ## Introduction
 
-A "python environment" is a virtual workspace where your Python libraries are installed. This document will guide you through generating a baseline Python environment that has the most commonly used Python libraries. It uses Poetry which is a Python libray.
+A "python environment" is a virtual workspace where your Python libraries are installed. This document will guide you through generating a baseline Python environment that has the most commonly used Python libraries for geographical sciences. It uses Poetry which is a Python library for managing dependencies.
 
 ## Getting started
 
@@ -20,7 +20,7 @@ In the terminal (mac, windows and linux):
 conda install -c conda-forge proj geos
 ```
 
-You need to install these to your system as the cartopy library needs them
+You need to install these to your system as they are binary dependencies required for cartopy to work properly.
 
 Step 3 - install Poetry
 
