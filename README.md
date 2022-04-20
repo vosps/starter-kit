@@ -17,7 +17,7 @@ Step 2 - install proj and geos packages
 In the terminal (mac, windows and linux):
 
 ```
-conda install -c conda-forge proj geos
+conda install -c conda-forge proj geos xesmf
 ```
 
 You need to install these to your system as they are binary dependencies required for cartopy to work properly.
